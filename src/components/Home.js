@@ -11,6 +11,10 @@ import Logo from '../assets/images/Logo.png'
 const Home = () => {
   return (
    <>
+   <Helmet>
+    <title>Home</title>
+    <meta name='description' content='Home page for github repo app'></meta>
+   </Helmet>
    <div className='main-container'>
     <div className='content'>
         <div className='icons'>

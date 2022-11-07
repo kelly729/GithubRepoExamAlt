@@ -1,7 +1,14 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 
 const About = () => {
   return (
+    <>
+    <Helmet>
+    <title>About page</title>
+    <meta name='description' content='About me'></meta>
+   </Helmet>
+    
       <div className='about'>
       <h2>About us</h2>
       <p>
@@ -14,6 +21,7 @@ const About = () => {
       </p>
 
     </div>
+    </>
   )
 }
 

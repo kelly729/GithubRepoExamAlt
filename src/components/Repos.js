@@ -11,10 +11,10 @@ const Repos = ({results}) => {
     const currentRepo=results.slice(IndexofFirstRepo,IndexofLastRepo)
   return (
    <>
-   {/* <Helmet>
+   <Helmet>
     <title>Git hub repos</title>
     <meta name='description' content='My git hub repos'></meta>
-   </Helmet> */}
+   </Helmet>
    <div className='user-cont'>
     <h1>My repository</h1>
     <div className='main'>
