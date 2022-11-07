@@ -4,7 +4,7 @@ export const ErrorPage=()=>{
    const person="kelly"
    return (
     <>
-    <h2>{person}</h2>
+    <h2>{}</h2>
     </>
    )
     }

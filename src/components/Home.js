@@ -15,6 +15,7 @@ const Home = () => {
    <Helmet>
     <title>Home</title>
     <meta name='description' content='Home page for github repo app'></meta>
+    <link rel='canonical' href='/'/>
    </Helmet>
    <div className='main-container'>
     <div className='content'>

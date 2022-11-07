@@ -7,6 +7,7 @@ const About = () => {
     <Helmet>
     <title>About page</title>
     <meta name='description' content='About me'></meta>
+    <link rel='canonical' href='/about'></link>
    </Helmet>
     
       <div className='about'>

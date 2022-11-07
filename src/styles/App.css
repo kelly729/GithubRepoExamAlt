@@ -157,6 +157,7 @@ h4{
 .img-sec{
   text-align: center;
   margin-top: 1rem;
+  padding: 1.4rem 1.4rem;
  
 }
 .img-sec img{
@@ -176,7 +177,7 @@ h4{
 }
 .cont{
   background: var(--floral-whte);
-  padding: 1rem 1rem;
+  padding: 1.4rem 1.4rem;
  
   
 }

@@ -14,6 +14,7 @@ const Repos = ({results}) => {
    <Helmet>
     <title>Git hub repos</title>
     <meta name='description' content='My git hub repos'></meta>
+    <link rel='canonical' href='/repos'></link>
    </Helmet>
    <div className='user-cont'>
     <h1>My repository</h1>
