@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async'
 import { Pagination } from './Pagination'
 
 const Repos = ({results}) => {
-    const [reposPerpage,setReposePerpage]=useState(2)
+    const [reposPerpage,setReposePerpage]=useState(3)
     const [currentPage,setCurrentPage]=useState(1)
 
     const IndexofLastRepo=currentPage*reposPerpage

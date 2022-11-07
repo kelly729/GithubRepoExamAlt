@@ -18,6 +18,8 @@ render(){
         return (
             <div className="error-boundary">
                 <h2>An Erorr Occured</h2>
+                <p>reload page or go back home</p>
+                <NavLink className="btn-cont"  to="/">Back home</NavLink>
                    
             </div>
         )

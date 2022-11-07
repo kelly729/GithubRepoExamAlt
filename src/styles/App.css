@@ -210,7 +210,19 @@ h4{
   font-size: 1rem;
   margin-top: 10px;
 }
-
+.error-boundary{
+  text-align: center;
+  margin-top: 5rem;
+}
+.error-boundary h2{
+  color: var(--carmine);
+  font-size: 3rem;
+  
+}
+.error-boundary p{
+  color: #134A9C;
+  margin-bottom: 3rem;
+}
 /* PAGINATION */
 
 /* MOBILE */
