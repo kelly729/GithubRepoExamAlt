@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
-import { RepoPagination } from './pagination'
+// import { RepoPagination } from './pagination'
 const Repos = ({results}) => {
     const [reposPerpage,setReposePerpage]=useState(6)
     const [currentPage,setCurrentPage]=useState(1)
@@ -37,14 +37,6 @@ const Repos = ({results}) => {
             )
         })}
     </div>
-    <RepoPagination
-    totalRepos={results.length}
-    reposPerpage={reposPerpage}
-    // paginate={paginate}
-    // // next={next}
-    // // prev={prev}
-    
-    />
     </div>
    </>
   )
