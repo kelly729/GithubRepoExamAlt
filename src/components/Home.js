@@ -4,6 +4,7 @@ import { FaUsers,FaFacebook,FaInstagram,FaTwitter,FaMoon,FaSun } from "react-ico
 import { ImMenu } from "react-icons/im";
 import user from '../assets/images/hero.png'
 import Logo from '../assets/images/Logo.png'
+import { Helmet } from 'react-helmet-async';
 // import { Navbar } from './Navbar';
 // import { Helmet, HelmetProvider } from 'react-helmet-async';
 

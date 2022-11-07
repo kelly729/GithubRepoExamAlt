@@ -18,7 +18,7 @@ const Repos = ({results}) => {
    <div className='user-cont'>
     <h1>My repository</h1>
     <div className='main'>
-        {currentRepo.map((repo)=>{
+        {results.map((repo)=>{
             const {name,owner:{id,avatar_url},description,node_id}=repo
             return(
                 <div className='submain'>
