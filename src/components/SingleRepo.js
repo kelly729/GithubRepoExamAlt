@@ -30,6 +30,7 @@ const SingleRepo = ({results}) => {
         </div>
       </div>
     </div>
+    
   )
 }
 
