@@ -84,7 +84,7 @@ h4{
 }
 .main{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
   margin-top: 2rem;
 }
@@ -134,6 +134,7 @@ h4{
 .page-main{
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
 }
 .page-main ul a{
   display: inline-block;
